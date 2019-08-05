@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Any Time train </title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="jumbotron">
+            <h1 class="text-center">Any Time train </h1>
+        </div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="cols">Train </th>
+                    <th scope="cols">Destination </th>
+                    <th scope="cols">Time </th>
+                    <th scope="cols">Frequecy -Minutes- </th>
+                    <th scope="cols">Next Arival</th>
+                    <th scope="cols">Minutes Away</th>
+                </tr>
+            </thead>
+            <tbody id="traintable">
+
+            </tbody>
+        </table>
+        <div class="row">
+
+            <div class="cols-lg-5">
+                <div class="card card-default">
+                    <div class="card-header">
+                        New Train addition
+                    </div>
+                    <form>
+                        <div class="form-group">
+                            <label for="">Train Name</label>
+                            <input type="text" class="form-control" id="Train" aria-describedby="Train">
+
+                            <div class="form-group">
+                                <label for="Destination">Destination</label>
+                                <input type="text" class="form-control" id="Destination" aria-describedby="">
+                                <div class="form-group"></div>
+                                <label for="Traintime">Train Time</label>
+                                <input type="time" class="form-control" id="Traintime" aria-describedby="">
+
+                            </div>
+                            <div class="form-group">
+                                <label for="Frequecy"> Frequecy </label>
+                                <input type="text" class="form-control" id="Frequency" aria-describedby="">
+
+                            </div>
+
+
+                            <div class="form-group"></div>
+                            <label for="Traintime">Next Arival</label>
+                            <input type="time" class="form-control" id="Traintime" aria-describedby="">
+
+                        </div>
+                        <div class="form-group">
+                            <label for="Frequecy"> Minutes Away </label>
+                            <input type="mm" class="form-control" id="Frequency" aria-describedby="">
+
+                        </div>
+
+                        <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+
+                    </form>
+
+
+
+                    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+                        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+                    </script>
+                    <script src="./Assets/train.js"></script>
+
+
+
+
+</body>
+
+</html>
